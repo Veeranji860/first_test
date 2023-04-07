@@ -24,6 +24,8 @@ interface naga{
 		hey erri where i put  loggers here
 		*/
 		System.out.println("Inside m3");
+		System.out.println("Inside m3");
+		System.out.println("Inside m3");System.out.println("Inside m3");
 	}
 }
 class Solution implements veera {
