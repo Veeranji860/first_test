@@ -21,14 +21,19 @@ interface veera {
 
 
 interface naga{
-	default void m3() {
-		/*
+    default void m3() {
+        /*
 		hey erri where i put  loggers here
 		*/
-		System.out.println("Inside m3");
-		System.out.println("Inside m3");
-		System.out.println("Inside m3");System.out.println("Inside m3");
-	}
+        System.out.println("Inside m3");
+        System.out.println("Inside m3");
+        System.out.println("Inside m3");System.out.println("Inside m3");
+    }
+
+    default void m4(){
+        System.out.println("Reddy added");
+    }
+}
 
 
 
