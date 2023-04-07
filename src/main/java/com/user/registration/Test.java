@@ -19,8 +19,10 @@ interface veera{
 }
 
 interface naga{
-	//abstract void m1();
 	default void m3() {
+		/*
+		hey erri where i put  loggers here
+		*/
 		System.out.println("Inside m3");
 	}
 }
