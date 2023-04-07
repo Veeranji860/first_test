@@ -17,6 +17,13 @@ interface veera{
 		System.out.println("Inside m2");
 	}
 }
+
+interface naga{
+	//abstract void m1();
+	default void m3() {
+		System.out.println("Inside m3");
+	}
+}
 class Solution implements veera {
 	public void get(String[] names) {
 		for(int i=0;i<names.length;i++) {
