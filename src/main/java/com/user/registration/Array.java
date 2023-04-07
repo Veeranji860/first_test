@@ -7,6 +7,10 @@ class Sample{
 	public void hello(){
 		 System.out.println("hello naga");
 	}
+	
+	public void hello3(){
+		 System.out.println("hello naga3");
+	}
 }
 
 public class Array<E> extends Thread{
