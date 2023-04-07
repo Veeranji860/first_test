@@ -2,6 +2,13 @@ package com.user.registration;
 
 import java.util.Arrays;
 
+class Sample{
+	
+	public void hello(){
+		 System.out.println("hello naga");
+	}
+}
+
 public class Array<E> extends Thread{
 	private int DEFAULT_CAPACITY=16;
 	private static final Object[] EMPTY_ELEMENTDATA = {};
